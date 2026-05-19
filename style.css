@@ -15,7 +15,7 @@
 body {
     margin-top: var(--navbar-height);
     background-repeat: repeat;
-    background-image: url(/wallsloop.png);
+    background-image: url(wallsloop.png);
 }
 nav {
     position: fixed;
@@ -38,7 +38,7 @@ header {
 }
 h1 {
     background-color: #a0640b;
-    color: rgb(128, 0, 0);
+    color: #800000;
     text-align: center;
     border-style: solid;
     width: 90%;
@@ -57,7 +57,7 @@ a:hover {
   color: #dbdbdb;
 }
 main {
-    background-color: rgb(160, 100, 11);
+    background-color: #a0640b;
     border-style: solid;
 }
 aside {
