@@ -9,7 +9,6 @@
     border-radius: 4px;
     font-family: "Cinzel", serif;
     border-color: #A5A5A5;
-    text-shadow: -1px -1px 0px #7D7D7D;
     color: #cccccc;
 }
 body {
@@ -56,10 +55,10 @@ a {
 a:hover {
   color: #dbdbdb;
 }
-main {
+/*main {
     background-color: #a0640b;
     border-style: solid;
-}
+}*/
 aside {
     width: 10%;
     border-style: solid;
@@ -87,12 +86,13 @@ input::placeholder{
 textarea::placeholder{
      color: #bbbbbb
 }
+/*
 article {
     border: 3px solid rgb(128, 0, 0);
     margin: 3px;
     padding: 2px;
     max-width: 500px;
-}
+}*/
 ul {
     padding: 0 10px;
     background-color: rgb(160, 100, 11);
@@ -116,7 +116,7 @@ article img{
 }
 .CenteredWithBackground {
     text-align: center;
-    background-color: rgb(160, 100, 11);
+    background-color: #a0640b;
 
 }
 footer {
@@ -126,4 +126,18 @@ footer {
     font-size: smaller;
     vertical-align: end;
     background-color: rgb(160, 100, 11);
+}
+
+.bg-primary{
+    background-color: #bbbbbb !important;
+}
+
+.text-primary{
+    color: rgb(128, 0, 0) !important;
+}
+.bg-body-primary{
+    background-color: #a0640b !important;
+}
+.inscribe{
+    text-shadow: -1px -1px 0px #7D7D7D;
 }
