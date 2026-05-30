@@ -120,9 +120,9 @@ article img{
 
 }
 footer {
-    position: fixed;
+    position: sticky;
     bottom: 0;
-    width: 100vw;
+    width: 100%;
     font-size: smaller;
     vertical-align: end;
     background-color: rgb(160, 100, 11);
@@ -140,4 +140,9 @@ footer {
 }
 .inscribe{
     text-shadow: -1px -1px 0px #7D7D7D;
+}
+
+.logo{
+    height: 100%;
+    max-height: 40px;   
 }
